@@ -18,6 +18,10 @@ body{
     line-height: 1.7;
     box-sizing: border-box;
 }
+
+//colors
+$color_black: #242424;
+$color_grey: #bababa;
 /*************************
         HEADER 
 *************************/
@@ -32,5 +36,25 @@ body{
         &--icon{
             margin-right: 1rem;
         }
+    }
+}
+
+/*************************
+       FOOTER
+*************************/
+.footer{
+    margin-top: 2rem;
+    background: $color_black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__logo img{
+        height: 2rem;
+        padding: 1rem;
+    }
+    &__copyright{
+        flex-grow: 1;
+        color: $color_grey;
+        font-size: 1.2rem; 
     }
 }

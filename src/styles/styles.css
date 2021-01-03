@@ -39,4 +39,34 @@ body {
 .header__toolbar--icon {
   margin-right: 1rem;
 }
+
+/*************************
+       FOOTER
+*************************/
+.footer {
+  margin-top: 2rem;
+  background: #242424;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__logo img {
+  height: 2rem;
+  padding: 1rem;
+}
+
+.footer__copyright {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  color: #bababa;
+  font-size: 1.2rem;
+}
 /*# sourceMappingURL=styles.css.map */
