@@ -9,6 +9,11 @@ html {
   font-size: 62.5%;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
@@ -16,5 +21,22 @@ body {
   line-height: 1.7;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+/*************************
+        HEADER 
+*************************/
+.header__toolbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__toolbar--logo {
+  padding-top: .5rem;
+}
+
+.header__toolbar--icon {
+  margin-right: 1rem;
 }
 /*# sourceMappingURL=styles.css.map */
